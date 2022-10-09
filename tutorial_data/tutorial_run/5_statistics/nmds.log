@@ -1,29 +1,28 @@
 nmds.log
-Run 0 stress 0.06371314 
-Run 1 stress 0.06426889 
-Run 2 stress 0.08847882 
-Run 3 stress 0.06720454 
-Run 4 stress 0.07492145 
-Run 5 stress 0.08864786 
-Run 6 stress 0.06708097 
-Run 7 stress 0.08664086 
-Run 8 stress 0.07492144 
-Run 9 stress 0.06708097 
-Run 10 stress 0.08531763 
-Run 11 stress 0.0749455 
-Run 12 stress 0.08664086 
-Run 13 stress 0.07494539 
-Run 14 stress 0.06371316 
-... Procrustes: rmse 5.520753e-05  max resid 0.0001770854 
+Run 0 stress 0.0642928 
+Run 1 stress 0.06531576 
+Run 2 stress 0.07484722 
+Run 3 stress 0.06726322 
+Run 4 stress 0.08928854 
+Run 5 stress 0.343572 
+Run 6 stress 0.06639613 
+Run 7 stress 0.08607373 
+Run 8 stress 0.07347089 
+Run 9 stress 0.06639613 
+Run 10 stress 0.0734709 
+Run 11 stress 0.07540229 
+Run 12 stress 0.08792633 
+Run 13 stress 0.07077934 
+Run 14 stress 0.08603452 
+Run 15 stress 0.06531576 
+Run 16 stress 0.3815745 
+Run 17 stress 0.06535094 
+Run 18 stress 0.07045649 
+Run 19 stress 0.0663938 
+Run 20 stress 0.06726322 
+Run 21 stress 0.0653508 
+Run 22 stress 0.0642928 
+... New best solution
+... Procrustes: rmse 1.252022e-05  max resid 2.905602e-05 
 ... Similar to previous best
-Run 15 stress 0.06371314 
-... Procrustes: rmse 1.18349e-05  max resid 3.329829e-05 
-... Similar to previous best
-Run 16 stress 0.381576 
-Run 17 stress 0.06371318 
-... Procrustes: rmse 7.986162e-05  max resid 0.000256176 
-... Similar to previous best
-Run 18 stress 0.0708509 
-Run 19 stress 0.08844062 
-Run 20 stress 0.06708097 
 *** Solution reached
