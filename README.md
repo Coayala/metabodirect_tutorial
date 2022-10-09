@@ -87,7 +87,7 @@ Cytoscape is used by MetaboDirect to build the biochemical transformation networ
 The FileTransfer plugin for Cytoscape is required to run MetaboDirect. This plugin can be installed by searching FileTransfer in `Apps -> App Manager` and then clicking on the "Install" button.
 
 <p align="center">
-  <img src="tutorial_data/cytoscape_plugin.png" width="350" title="SPANS scores">
+  <img src="tutorial_data/cytoscape_plugin.PNG" width="350" title="FileTransfer plugin for Cytoscape">
 </p>
 
 ### 6. Example using test data
@@ -139,6 +139,11 @@ metabodirect Report.csv metadata.csv -o tutorial_run -g Treatment -n median -t
 ```
 
 This command will create a directory called `tutorial_run` which will have all the tables and plots of the different analysis performed by MetaboDirect, as well as R scripts to modify them.
+
+<p align="center">
+  <img src="tutorial_data/tutorial_run/3_exploratory/Composition_by_class.png" width="350" title="Example of molecular class composition plot">
+  <img src="tutorial_data/tutorial_run/4_chemocdiversity/abundance_diversity_plot.png" width="350" title="Example of diversity plot">
+</p>
 
 #### 6.3 Biochemical transformation networks
 
