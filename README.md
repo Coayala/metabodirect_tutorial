@@ -142,7 +142,7 @@ This command will create a directory called `tutorial_run` which will have all t
 
 <p align="center">
   <img src="tutorial_data/tutorial_run/3_exploratory/Composition_by_class.png" width="350" title="Example of molecular class composition plot">
-  <img src="tutorial_data/tutorial_run/4_chemocdiversity/abundance_diversity_plot.png" width="350" title="Example of diversity plot">
+  <img src="tutorial_data/tutorial_run/4_chemodiversity/abundance_diversity_plot.png" width="350" title="Example of diversity plot">
 </p>
 
 #### 6.3 Biochemical transformation networks
@@ -154,6 +154,7 @@ The biochemical transformation networks can be build using Cytoscape with the fo
 ```
 create_networks tutorial_run metadata.csv Treatment
 ```
+
 
 
 
