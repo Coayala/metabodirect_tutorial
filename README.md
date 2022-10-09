@@ -74,7 +74,7 @@ which Rscript
 
 If you get and error, R is not in your path:
 
-**(For Windos Users)** Please follow the instructions of this [website](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/) to add the directory where R is installed to your system's path.
+**(For Windows Users)** Please follow the instructions detailed [here](https://hackmd.io/0rnQHQDyT4yQy_PFnxZhTQ?view) to add the directory where R is installed to your system's path.
 
 **(For Mac Users)** Most likely R will be already in your path. If not, you can follow the instructions of this [website](https://www.architectryan.com/2012/10/02/add-to-the-path-on-mac-os-x-mountain-lion/)
 
