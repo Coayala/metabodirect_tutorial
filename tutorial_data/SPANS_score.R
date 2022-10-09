@@ -24,7 +24,7 @@ my_metadata.file <- file.path('metadata.csv')
 my_data.file <- file.path('Report.csv')
 source.file <- file.path('C:/ProgramData/Anaconda3/Lib/site-packages/metabodirect', 'spans.R')
 log_transform <- FALSE
-group <- 'Habitat'
+group <- 'Treatment'
 
 source(source.file)
 metadata <- read.csv(my_metadata.file)
