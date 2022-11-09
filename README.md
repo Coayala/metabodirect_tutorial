@@ -84,11 +84,11 @@ If you get and error, R is not in your path:
 
 **(For Mac Users)** Most likely R will be already in your path. If not, you can follow the instructions of this [website](https://www.architectryan.com/2012/10/02/add-to-the-path-on-mac-os-x-mountain-lion/)
 
-### 7. Installing Cytoscape
+### 6. Installing Cytoscape
 
 Cytoscape is used by MetaboDirect to build the biochemical transformation networks. It can be downloaded from [here](https://cytoscape.org/download.html).
 
-### 8. Installing Cytoscape plugin
+### 7. Installing Cytoscape plugin
 
 The FileTransfer plugin for Cytoscape is required to run MetaboDirect. This plugin can be installed by searching FileTransfer in `Apps -> App Manager` and then clicking on the "Install" button.
 
@@ -96,9 +96,9 @@ The FileTransfer plugin for Cytoscape is required to run MetaboDirect. This plug
   <img src="tutorial_data/cytoscape_plugin.PNG" width="350" title="FileTransfer plugin for Cytoscape">
 </p>
 
-### 6. Example using test data
+### 8. Example using test data
 
-#### 6.1. Downloading the test data
+#### 8.1. Downloading the test data
 
 Create a new directory (`metabodirect_tutorial`) in your home directory to download the data and run MetaboDirect.
 
@@ -120,7 +120,7 @@ curl https://raw.githubusercontent.com/Coayala/metabodirect_tutorial/main/tutori
 ```
 curl https://raw.githubusercontent.com/Coayala/metabodirect_tutorial/main/tutorial_data/metadata.csv -o metadata.csv
 ```
-#### 6.2. Check the normalization methods
+#### 8.2. Check the normalization methods
 
 MetaboDirect can help to choose the best normalization method for an specific dataset and an specific grouping variable using the [SPANS method](https://doi.org/10.1002/rcm.9068). This can be done with the following command:
 
@@ -136,7 +136,7 @@ This command will create the file `SPANS_score.R` as well as a heatmap with the 
 
 In the example the best normalization method seem to be `median`. For more information about normalization methods check the corresponding [Normalization methods section of the User Guide](https://metabodirect.readthedocs.io/en/latest/use_guide.html#normalization-method-n-norm-method).
 
-#### 6.3 Run the MetaboDirect pipeline
+#### 8.3 Run the MetaboDirect pipeline
 
 MetaboDirect can be run with the selected normalization method as follows:
 
@@ -151,7 +151,7 @@ This command will create a directory called `tutorial_run` which will have all t
   <img src="tutorial_data/tutorial_run/4_chemodiversity/abundance_diversity_plot.png" width="350" title="Example of diversity plot">
 </p>
 
-#### 6.3 Biochemical transformation networks
+#### 8.4 Biochemical transformation networks
 
 In the previous step we run MetaboDirect with the option `-t` which will calculate possible biochemical transformations for the detected masses based on mass differences, tables with the possible transformations will be generated in the directory `tutorial_run/6_transformations`.
 
