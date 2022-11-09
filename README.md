@@ -31,6 +31,11 @@ Open a terminal and install the required packages specified in the MetaboDirect 
 ```
 pip install <package-name>
 ```
+#### Installing MetaboDirect
+
+```
+pip install metabodirect
+```
 
 ### 3. Installing R/RStudio
 
