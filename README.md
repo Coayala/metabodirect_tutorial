@@ -4,8 +4,8 @@
 
 MetaboDirect is a Python and R based pipeline for the analysis of Direct Injection FT-ICR Mass Spectrometry data. More detailed information of each function of MetaboDirect can be seen in its [User Guide](https://metabodirect.readthedocs.io/en/latest/).
 ### Citation
-MetaboDirect's paper is currently under review, in the meanwhile please cite our [preprint](https://www.biorxiv.org/content/10.1101/2022.06.10.495699v1).
-- Ayala-Ortiz, C. O., Graf-Grachet, N., Freire-Zapata, V., Fudyma, J., Hildebrand, G., AminiTabrizi, R., ... & Tfaily, M. (2022). MetaboDirect: An Analytical Pipeline for the processing of FTICR-MS-based Metabolomics Data. bioRxiv.
+MetaboDirect's paper is already published. Please check our paper in Microbiome: https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-023-01476-3
+- Ayala-Ortiz, C., Graf-Grachet, N., Freire-Zapata, V. et al. MetaboDirect: an analytical pipeline for the processing of FT-ICR MS-based metabolomic data. Microbiome 11, 28 (2023). https://doi.org/10.1186/s40168-023-01476-3
 
 ## Installation
 
