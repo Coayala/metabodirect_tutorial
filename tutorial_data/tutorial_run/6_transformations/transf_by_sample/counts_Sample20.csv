@@ -1,0 +1,97 @@
+SampleID,Group,Transformation,Formula,Counts,Perc_Counts
+Sample20,Abiotic,GSH_Conjugation_1,C10H15N3O6S,1,3.369045212586753e-05
+Sample20,Sugar,Disaccharide_(-H2O),C12H20O11,1,3.369045212586753e-05
+Sample20,Amino Acid,Guanosine_5_monophosphate_(-H2O),C10H12N5O7P,1,3.369045212586753e-05
+Sample20,Amino Acid,Thymidine_5_monophosphate_(-H2O),C10H13N2O7P,1,3.369045212586753e-05
+Sample20,Abiotic,GSH_Conjugation_2,C10H17N3O6S,1,3.369045212586753e-05
+Sample20,Amino Acid,Uridine_5_monophosphate_(-H2O),C9H11N2O8P,1,3.369045212586753e-05
+Sample20,Abiotic,GSH_Conjugation_(on_Bromine)_(-Br),C10H16N3O6S,1,3.369045212586753e-05
+Sample20,Amino Acid,Adenosine_5_monophosphate_(-H2O),C10H12N5O6P,2,6.738090425173506e-05
+Sample20,Amino Acid,Cytidine_5_monophsophate_(-H2O),C9H12N3O7P,2,6.738090425173506e-05
+Sample20,Other,Phytochelatin,C10H16N3O6S-,5,0.00016845226062933764
+Sample20,Amino Acid,Thymidine_(-H2O),C10H12N2O4,7,0.0002358331648810727
+Sample20,Abiotic,GSH_Conjugation_(on_Fluorine)_(-F),C10H16N3O6S,7,0.0002358331648810727
+Sample20,Other,Stearyl_Conjugation_(-H),C18H35O,8,0.00026952361700694025
+Sample20,Amino Acid,Guanosine_(-H2O),C10H11N5O4,8,0.00026952361700694025
+Sample20,Amino Acid,Uridine_(-H2O),C9H10N2O5,9,0.00030321406913280777
+Sample20,Amino Acid,Adenosine_(-H2O),C10H11N5O3,10,0.0003369045212586753
+Sample20,Other,Pyridoxal_phosphate_(-H2O),C8H8NO5P,10,0.0003369045212586753
+Sample20,Amino Acid,Tryptophan_(-H2O),C11H10N2O,16,0.0005390472340138805
+Sample20,Abiotic,Biotinyl_(-H),C10H15N2O3S,16,0.0005390472340138805
+Sample20,Amino Acid,Cystine_(-H2O),C6H10N2O3S2,17,0.000572737686139748
+Sample20,Amino Acid,Histidine_(-H2O),C6H7N3O,18,0.0006064281382656155
+Sample20,Abiotic,GSH_Conjugation_(on_Chlorine)_(-Cl),C10H16N3O6S,20,0.0006738090425173506
+Sample20,Abiotic,Reductive_Debromination_(-Br),H,21,0.0007074994946432181
+Sample20,Other,Diphosphate,H3O6P2,24,0.0008085708510208206
+Sample20,Abiotic,Biotinyl_(-H2O),C10H14N2O2S,26,0.0008759517552725558
+Sample20,Other,Alliin,C6H11NO3S,27,0.0009096422073984233
+Sample20,Abiotic,Oxidative_Debromination_(-Br),HO,28,0.0009433326595242908
+Sample20,Other,Palmitoylation_(-H2O)/Palmitoyl_Conjugation_(-H),C16H30O_C16H31O,32,0.001078094468027761
+Sample20,Amino Acid,Thymine_(-H),C5H5N2O2,35,0.0011791658244053635
+Sample20,Amino Acid,Lysine_(-H2O),C6H12N2O,36,0.001212856276531231
+Sample20,Abiotic,CHO2,CHO2,36,0.001212856276531231
+Sample20,Abiotic,Isoprene_addition_(-H),C5H7,36,0.001212856276531231
+Sample20,Amino Acid,Cysteine_Conjugation_1_(-H),C3H6NO2S,40,0.0013476180850347011
+Sample20,Abiotic,Acetone_(-H),C3H5O,41,0.0013813085371605688
+Sample20,Abiotic,Acetylation_(-H),C2H3O2,42,0.0014149989892864362
+Sample20,Amino Acid,Cysteine_(-H2O),C3H5NOS,42,0.0014149989892864362
+Sample20,Amino Acid,Arginine_(-H2O)/Arginine_Conjugation_(-OH),C6H12N4O_C6H13N4O2,44,0.0014823798935381712
+Sample20,Amino Acid,Uracil_(-H),C4H3N2O2,44,0.0014823798935381712
+Sample20,Abiotic,Pyrophosphate,PP,45,0.0015160703456640388
+Sample20,Other,Ornitine_Conjugation_(-OH),C5H11N2O2,48,0.0016171417020416413
+Sample20,Amino Acid,Methionine_(-H2O),C5H9NOS,48,0.0016171417020416413
+Sample20,Amino Acid,Glutamine_(-H2O)/Glutamine_Conjugation_(-OH),C5H8N2O2_C5H9N2O3,49,0.001650832154167509
+Sample20,Sugar,Glucose-N-Phosphate_(-H2O),C6H11O8P,49,0.001650832154167509
+Sample20,Amino Acid,Cysteine_Conjugation_2,C3H7NO2S,50,0.0016845226062933765
+Sample20,Amino Acid,Cytosine_(-H),C4H4N3O,61,0.0020551175796779193
+Sample20,Other,Taurine_Conjugation_(-OH),C2H6NO3S,63,0.002122498483929654
+Sample20,Amino Acid,Asparagine_(-H2O),C4H6N2O2,70,0.002358331648810727
+Sample20,Abiotic,Oxidative_Defluorination_(-F),HO,91,0.003065831143453945
+Sample20,Amino Acid,Phenylalanine_(-H2O),C9H9NO,93,0.0031332120477056804
+Sample20,Abiotic,Sulfation_(-H)/Sulfate(-H2O),HO3S_SO3,97,0.0032679738562091504
+Sample20,Other,Urea_addition_(-H),CH3N2O,110,0.003705949733845428
+Sample20,Abiotic,Reductive_Defluorination_(-F),H,115,0.003874401994474766
+Sample20,Amino Acid,Tyrosine_(-H2O),C9H9NO2,122,0.004110235159355839
+Sample20,Amino Acid,Guanine_(-H),C5H4N5O,124,0.0041776160636075735
+Sample20,Amino Acid,Adenine_(-H),C5H4N5,144,0.004851425106124924
+Sample20,Other,Carbamoyl_P_transfer_(-H2PO4),CH2ON,180,0.006064281382656155
+Sample20,Abiotic,Tertiary_amine,N,197,0.006637019068795903
+Sample20,Amino Acid,Leucine_(-H2O),C6H11NO,218,0.007344518563439121
+Sample20,Amino Acid,Isoleucine_(-H2O),C6H11NO,218,0.007344518563439121
+Sample20,Abiotic,Primary_amine,NH2,227,0.007647732632571929
+Sample20,Other,Thiourea_to_Urea_(-S),O,236,0.007950946701704736
+Sample20,Amino Acid,Transamination_(-O),NH4,251,0.00845630348359275
+Sample20,Sugar,C6H10O6,C6H10O6,258,0.008692136648473823
+Sample20,Abiotic,Carbon/dehydrogenation,C13,274,0.009231183882487703
+Sample20,Abiotic,Phosphate,HPO3,275,0.00926487433461357
+Sample20,Abiotic,Reductive_Dechlorination_(-Cl),H,280,0.009433326595242908
+Sample20,Abiotic,Inorganic_Phosphate,P,281,0.009467017047368775
+Sample20,Amino Acid,Valine_(-H2O),C5H9NO,284,0.009568088403746379
+Sample20,Sugar,Glucuronic_Acid_(-H2O)/Glucuronide_Conjugation_(-H),C6H8O6,292,0.009837612020753318
+Sample20,Abiotic,Oxidative_Dechlorination_(-Cl),HO,297,0.010006064281382655
+Sample20,Amino Acid,Proline_(-H2O),C5H7NO,297,0.010006064281382655
+Sample20,Other,O-Acetylserine,C5H9NO4,310,0.010444040159018933
+Sample20,Amino Acid,Glutamic_Acid_(-H2O),C5H7NO3,358,0.012061181861060576
+Sample20,Amino Acid,Threonine_(-H2O),C4H7NO2,402,0.013543561754598747
+Sample20,Sugar,Glucoside_Conjugation_(-H),C6H11O5,408,0.013745704467353952
+Sample20,Amino Acid,Aspartic_Acid_(-H2O),C4H5NO3,419,0.014116299440738495
+Sample20,Amino Acid,Alanine_(-H2O),C3H5NO,441,0.01485748938750758
+Sample20,Amino Acid,Serine_(-H2O),C3H5NO2,459,0.015463917525773196
+Sample20,Abiotic,Oxidative_Deamination_to_Ketone_(-H3N),O,493,0.016609392898052692
+Sample20,Amino Acid,Glycine_Conjugation_(-OH),C2H4NO2,538,0.018125463243716732
+Sample20,Sugar,D-Ribose_(-H2O)_(ribosylation),C5H8O4,586,0.01974260494575837
+Sample20,Abiotic,Secondary_amine,NH,590,0.01987736675426184
+Sample20,Sugar,Erythrose_(-H2O),C4H8O4,863,0.02907486018462368
+Sample20,Other,Malonyl_group_(-H2O),C3H2O3,909,0.030624620982413583
+Sample20,Abiotic,Acetotacetate_(-H2O),C4H4O2,1054,0.035509736540664374
+Sample20,Abiotic,Nitro_Reduction_(-O2),H2,1123,0.03783437773734923
+Sample20,Sugar,Glyoxylate_(-H2O),C2O2,1202,0.04049592345529277
+Sample20,Abiotic,Carboxylation,CO2,1245,0.04194461289670507
+Sample20,Abiotic,Condensation/hydration/dehydration,H2O,1326,0.044673539518900345
+Sample20,Abiotic,C2H2,C2H2,1408,0.04743615659322148
+Sample20,Abiotic,Ethyl_addition_(-H2O),C2H4,1461,0.04922175055589246
+Sample20,Abiotic,Acetylation_(-H2O),C2H2O,1463,0.049289131460144193
+Sample20,Abiotic,Formic_Acid_(-H2O),CO,1509,0.0508388922579341
+Sample20,Abiotic,Oxidation/Hydroxylation_(-H),O,1562,0.05262448622060508
+Sample20,Abiotic,Hydrogenation/dehydrogenation,H2,1680,0.05659995957145745
+Sample20,Abiotic,Methylation_(-H),CH3,1713,0.05771174449161108

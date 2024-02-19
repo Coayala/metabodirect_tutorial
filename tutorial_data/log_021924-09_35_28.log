@@ -1,0 +1,61 @@
+[02/19/2024 09:35] PROCESS | WELCOME TO METABODIRECT
+
+[02/19/2024 09:35] INFO    | Analysis starting on 2024-02-19 09:35:28 AM
+[02/19/2024 09:35] SUCCESS | Run was initiated with the command: ['C:\\Users\\Chris\\anaconda3\\Scripts\\metabodirect', 'Report.csv', 'metadata.csv', '-o', 'tutorial_run', '-g', 'Treatment', '-n', 'median', '-t']
+[02/19/2024 09:35] INFO    | Results will be saved in directory: C:\Users\Chris\Desktop\UofA\metabodirect_tutorial\tutorial_data\tutorial_run
+[02/19/2024 09:35] INFO    | Data file is Report.csv
+[02/19/2024 09:35] INFO    | Metadata file is metadata.csv
+
+[02/19/2024 09:35] PROCESS | Start data pre-processing
+
+[02/19/2024 09:35] WARNING | Option -f not detected, all samples will be used
+[02/19/2024 09:35] INFO    | Number of m/z in provided file: 63163
+[02/19/2024 09:35] INFO    | Number of masses excluded because of C13 isotope: 4566
+[02/19/2024 09:35] INFO    | Number of m/z remaining after isotope-filtering: 58597
+[02/19/2024 09:35] INFO    | Number of m/z remaining after m/z-filtering: 58597
+[02/19/2024 09:35] INFO    | Number of m/z in at least 2 samples: 16653
+[02/19/2024 09:35] INFO    | Number of m/z after error filtering (0.5): 16653
+[02/19/2024 09:35] INFO    | Calculating thermodynamic indexes
+[02/19/2024 09:35] INFO    | Normalizing data using the median method
+[02/19/2024 09:35] INFO    | Report saved as: tutorial_run\1_preprocessing_output\Report_processed_MolecFormulas.csv
+
+[02/19/2024 09:35] PROCESS | Data pre-processing finished
+
+[02/19/2024 09:35] PROCESS | Starting data diagnostics
+
+[02/19/2024 09:35] INFO    | Calculating number of peaks detected per sample
+[02/19/2024 09:35] INFO    | The average number of peaks detected per sample is: 3318
+[02/19/2024 09:35] INFO    | Calculating number of assigned molecular formulas per sample
+[02/19/2024 09:35] INFO    | The average number of masses assigned a molecular formula per sample is: 2737
+[02/19/2024 09:35] INFO    | Calculating error distribution per group/s: ['Treatment']
+[02/19/2024 09:35] PROCESS | Data diagnostics finished
+
+[02/19/2024 09:35] PROCESS | Starting data exploration
+
+[02/19/2024 09:35] INFO    | Running R script: tutorial_run\3_exploratory\data_exploration.R
+[02/19/2024 09:38] INFO    | Find results and R script in the directory: C:\Users\Chris\Desktop\UofA\metabodirect_tutorial\tutorial_data\tutorial_run\3_exploratory
+[02/19/2024 09:38] WARNING | KEGG annotation not selected. If you wish to perform a KEGG annotation run the script again using the "-k/--kegg_annotation" option
+[02/19/2024 09:38] PROCESS | Data exploration finished
+
+[02/19/2024 09:38] PROCESS | Starting chemodiversity analysis
+
+[02/19/2024 09:38] INFO    | Running R script: tutorial_run\4_chemodiversity\data_chemodiversity.R
+[02/19/2024 09:41] INFO    | Find results and R script in the directory: C:\Users\Chris\Desktop\UofA\metabodirect_tutorial\tutorial_data\tutorial_run\4_chemodiversity
+
+[02/19/2024 09:41] PROCESS | Chemodiversity analysis finished
+
+[02/19/2024 09:41] PROCESS | Starting statistical analysis
+
+[02/19/2024 09:41] INFO    | Running R script: C:\Users\Chris\Desktop\UofA\metabodirect_tutorial\tutorial_data\tutorial_run\5_statistics\data_statistics.R
+[02/19/2024 09:41] INFO    | Find results and R script in the directory: C:\Users\Chris\Desktop\UofA\metabodirect_tutorial\tutorial_data\tutorial_run\5_statistics
+
+[02/19/2024 09:41] PROCESS | Statistical analysis finished
+
+[02/19/2024 09:41] PROCESS | Starting transformation networks analysis
+
+[02/19/2024 10:22] INFO    | Finished to calculate transformatios, please find transformation files in the directory:C:\Users\Chris\Desktop\UofA\metabodirect_tutorial\tutorial_data\tutorial_run\6_transformations\transf_by_sample
+[02/19/2024 10:22] WARNING | Create networks not selected.
+If you wish to create networks automatically please set the option -c.
+Otherwise to create networks from previously calculated transformations using the "create_networks"companion script
+
+[02/19/2024 10:22] SUCCESS | MetaboDirect finished running in 47 minutes

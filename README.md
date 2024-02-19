@@ -21,7 +21,6 @@ Download and install the Anaconda distribution of Python from [here](https://www
 
 ```
 conda install m2-base
-conda install -c menpo wget
 ```
 
 ### 2. Installing required Python Modules
@@ -35,6 +34,12 @@ pip install <package-name>
 
 ```
 pip install metabodirect
+```
+
+If you already have MetaboDirect installed and want to update it you can use:
+
+```
+pip install -U metabodirect
 ```
 
 ### 3. Installing R/RStudio
@@ -90,7 +95,7 @@ Cytoscape is used by MetaboDirect to build the biochemical transformation networ
 
 ### 7. Installing Cytoscape plugin
 
-The FileTransfer plugin for Cytoscape is required to run MetaboDirect. This plugin can be installed by searching FileTransfer in `Apps -> App Manager` and then clicking on the "Install" button.
+The FileTransfer plugin for Cytoscape is required to run MetaboDirect. Cyttoscape version 3.9 and higher have this plugin installed by default. For older versions this plugin can be installed by searching FileTransfer in `Apps -> App Manager` and then clicking on the "Install" button.
 
 <p align="center">
   <img src="tutorial_data/cytoscape_plugin.PNG" width="350" title="FileTransfer plugin for Cytoscape">
@@ -134,11 +139,11 @@ This command will create the file `SPANS_score.R` as well as a heatmap with the 
   <img src="tutorial_data/SPANS_scores.png" width="350" title="SPANS scores">
 </p>
 
-In the example the best normalization method seem to be `median`. For more information about normalization methods check the corresponding [Normalization methods section of the User Guide](https://metabodirect.readthedocs.io/en/latest/use_guide.html#normalization-method-n-norm-method).
+The method estimadted to work the best based on the SPANS method is the one with the higher score (more yellowish color in the heatmap). In the example the best normalization method seem to be `median`. For more information about normalization methods check the corresponding [Normalization methods section of the User Guide](https://metabodirect.readthedocs.io/en/latest/use_guide.html#normalization-method-n-norm-method).
 
 #### 8.3 Run the MetaboDirect pipeline
 
-MetaboDirect can be run with the selected normalization method as follows:
+Below there is an example of a command that can be used to run MetaboDirect. Here `-o tutorial_run` indicates the directory where all the results will be stored (if this directory does not exist it will be created, if it already exists it will be **overwritten**). The grouping variable is indicated with `-g Treatment` based on information in the `metadata.csv` file. The selected normalization method can be specified with `-n`. For a complete list of command line options of MetaboDirect, please check the [MetaboDirect User's Guide](https://metabodirect.readthedocs.io/en/latest/use_guide.html). 
 
 ```
 metabodirect Report.csv metadata.csv -o tutorial_run -g Treatment -n median -t
@@ -153,7 +158,7 @@ This command will create a directory called `tutorial_run` which will have all t
 
 #### 8.4 Biochemical transformation networks
 
-In the previous step we run MetaboDirect with the option `-t` which will calculate possible biochemical transformations for the detected masses based on mass differences, tables with the possible transformations will be generated in the directory `tutorial_run/6_transformations`.
+In the previous step we run MetaboDirect with the option `-t` which will calculate possible biochemical transformations for the detected masses based on mass differences, tables with the possible transformations will be generated in the directory `tutorial_run/6_transformations`. Depending on the number of masses detected in each of the samples, this step may take a couple of hours.
 
 The biochemical transformation networks can be build using Cytoscape with the following command:
 

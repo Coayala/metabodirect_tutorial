@@ -18,11 +18,11 @@ suppressPackageStartupMessages({
 
 #### Defining paths and variables ####
 
-setwd('C:/Users/Chris/Desktop/UofA/tutorials/metabodirect_tutorial/tutorial_data')
+setwd('C:/Users/Chris/Desktop/UofA/metabodirect_tutorial/tutorial_data')
 
 my_metadata.file <- file.path('metadata.csv')
 my_data.file <- file.path('Report.csv')
-source.file <- file.path('C:/ProgramData/Anaconda3/Lib/site-packages/metabodirect', 'spans.R')
+source.file <- file.path('C:/Users/Chris/anaconda3/Lib/site-packages/metabodirect', 'spans.R')
 log_transform <- FALSE
 group <- 'Treatment'
 
