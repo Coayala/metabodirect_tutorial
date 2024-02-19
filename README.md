@@ -152,8 +152,8 @@ metabodirect Report.csv metadata.csv -o tutorial_run -g Treatment -n median -t
 This command will create a directory called `tutorial_run` which will have all the tables and plots of the different analysis performed by MetaboDirect, as well as R scripts to modify them.
 
 <p align="center">
-  <img src="tutorial_data/tutorial_run/3_exploratory/Composition_by_class.png" width="350" title="Example of molecular class composition plot">
-  <img src="tutorial_data/tutorial_run/4_chemodiversity/abundance_diversity_plot.png" width="350" title="Example of diversity plot">
+  <img src="tutorial_data/tutorial_run/3_exploratory/5_Composition_by_class.png" width="350" title="Example of molecular class composition plot">
+  <img src="tutorial_data/tutorial_run/4_chemodiversity/2.2_abundance_diversity_plot.png" width="350" title="Example of diversity plot">
 </p>
 
 #### 8.4 Biochemical transformation networks
