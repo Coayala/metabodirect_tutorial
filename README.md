@@ -9,28 +9,49 @@ MetaboDirect's paper is already published. Please check our paper in Microbiome:
 
 ## Installation
 
-### 1. Installing Anaconda
+### 1. Installing Python
 
-Any Python installation can work with MetaboDirect, however we recommend using the Anaconda distribution. 
+Any Python installation can work with MetaboDirect, however we highly recommend using the Miniforge distribution, as it includes the `mamba` package and environment manager that will make it easier to install software and create virtual environments. 
 
-Download and install the Anaconda distribution of Python from [here](https://www.anaconda.com/products/individual-b).
+Download and install `mamba` following the instructions from its documentation [here]([https://www.anaconda.com/products/individual-b](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html)).
 
 ### (Optional) Setting up the terminal
 
-**(For Windows Users)** Open the *Anaconda Prompt* in Administrator Mode, and enter the following commands:
+**(For Windows Users)** Open the *Miniforge Prompt* in Administrator Mode, and enter the following commands:
 
 ```
-conda install m2-base
+mamba install m2-base
 ```
 
-### 2. Installing required Python Modules
+This will allow you to use Linux-like commands (`cd`, `ls`, etc.) to move across files and directories.
 
-Open a terminal and install the required packages specified in the MetaboDirect [installation page](https://metabodirect.readthedocs.io/en/latest/installation.html), using the following command:
+Conversely you can install [Git Bash](https://git-scm.com/install/windows) and initialize mamba there with:
 
 ```
-pip install <package-name>
+/c/Users/ayal219/AppData/Local/miniforge3/Scripts/conda init bash
 ```
+
+Restart the terminal by closing it and opening it again.
+
+### 2. Installation
+
+#### Creating a mamba environment
+
+To take full advantage of `mamba` and avoid dependency issues, we will create an isolated environment for MetaboDirect that contains python and pip:
+
+```
+mamba create -n metabodirect python=3.12 pip
+```
+
+Once the environment is ready we will activate it:
+
+```
+mamba activate metabodirect
+```
+
 #### Installing MetaboDirect
+
+We will proceed to install MetaboDirect in the current environment"
 
 ```
 pip install metabodirect
@@ -105,7 +126,7 @@ The FileTransfer plugin for Cytoscape is required to run MetaboDirect. Cyttoscap
 
 #### 8.1. Downloading the test data
 
-Create a new directory (`metabodirect_tutorial`) in your home directory to download the data and run MetaboDirect.
+Create a new directory (`metabodirect_tutorial`) to download the data and run MetaboDirect. For this tutorial we will do this in the home directory (`~`).
 
 ```
 cd ~
