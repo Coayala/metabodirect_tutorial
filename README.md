@@ -28,8 +28,10 @@ This will allow you to use Linux-like commands (`cd`, `ls`, etc.) to move across
 Conversely you can install [Git Bash](https://git-scm.com/install/windows) and initialize mamba there with:
 
 ```
-/c/Users/ayal219/AppData/Local/miniforge3/Scripts/conda init bash
+/c/Users/{YOUR_USER}/AppData/Local/miniforge3/Scripts/conda init bash
 ```
+
+The exact path for the conda executable will depend on your machine.
 
 Restart the terminal by closing it and opening it again.
 
