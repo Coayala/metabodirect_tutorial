@@ -89,13 +89,6 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 BiocManager::install("KEGGREST")
 ```
 
-The package *pmartR* needs to be installed with *devtools* with the following command:
-
-```
-install.packages("devtools")
-devtools::install_github("pmartR/pmartR")
-```
-
 Please check each package documentation for more detailed information regarding installation.
 
 ### 5. Put R in your system's PATH
