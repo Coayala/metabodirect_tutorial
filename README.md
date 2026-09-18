@@ -13,7 +13,7 @@ MetaboDirect's paper is already published. Please check our paper in Microbiome:
 
 Any Python installation can work with MetaboDirect, however we highly recommend using the Miniforge distribution, as it includes the `mamba` package and environment manager that will make it easier to install software and create virtual environments. 
 
-Download and install `mamba` following the instructions from its documentation [here]([https://www.anaconda.com/products/individual-b](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html)).
+Download and install `mamba` following the instructions from its documentation [here](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html).
 
 ### (Optional) Setting up the terminal
 
