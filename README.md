@@ -42,7 +42,7 @@ Restart the terminal by closing it and opening it again.
 To take full advantage of `mamba` and avoid dependency issues, we will create an isolated environment for MetaboDirect that contains python and pip:
 
 ```
-mamba create -n metabodirect python=3.13 pip
+mamba create -n metabodirect python=3.10 pip
 ```
 
 Once the environment is ready we will activate it:
